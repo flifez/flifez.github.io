@@ -1,18 +1,33 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Stuff
+permalink: /stuff/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I put random things here.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+[toc]
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+## Internet, the Ultimate Public Cesspit
 
+With Internet, you can bully a random OP with so-called "freedom of speech". You can do some doxing and appreciate the victims' pain. You can even write some bullshit (like this) to "set things right", we call that tryhard.
 
-[jekyll-organization]: https://github.com/jekyll
+## #FvckBi1ibi1i
+
+This is a counter. Each time my comment gets deleted, I will add one here.
+
+<center>
+  Currently, my comments have been deleted for (like)
+</center><center>
+    <font size="7" color="red">67</font>
+</center><center>
+  times.
+</center>
+<center>
+  <p class="big">
+    Chen Rui's mother has probably died for <font color="red">67</font> times too.
+  </p>
+</center>
+
+I don't like embedding HTML codes in markdown files, though.
+
