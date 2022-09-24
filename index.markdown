@@ -5,6 +5,9 @@
 layout: home
 ---
 
-Welcome to the gap between imagination and reality, the place we called "Rambling Playground".
+> Where are me now...?
 
-It's where your subconscious haunts. Now just sit down and listen to some of its faint sounds.
+Welcome.
+
+Just a reminder: this site never existed, so watch out.
+

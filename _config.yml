@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Rambling Playground 
+title: R. Playground - β
 email: flif3z (at) gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Preserves all shards of time. Ckeck your catalogue and order with an amazing 60% off just for TODAY!
+  Preserves all shards of time. Check your catalogue and order with an amazing 60% off just for yesterday.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.calcraft.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rambler.calcraft.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
 github_username:  flifez
 

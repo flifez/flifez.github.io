@@ -4,9 +4,9 @@ title: Stuff
 permalink: /stuff/
 ---
 
-I put random things here.
+<p><center><strong>This page is under construction.</strong></center></p>
 
-[toc]
+
 
 ## Internet, the Ultimate Public Cesspit
 
