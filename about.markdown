@@ -4,7 +4,7 @@ title: Stuff
 permalink: /stuff/
 ---
 
-<p><center><strong>This page is under construction.</strong></center></p>
+<p><center><strong>This page is keep updating.</strong></center></p>
 
 
 
@@ -19,15 +19,16 @@ This is a counter. Each time my comment gets deleted, I will add one here.
 <center>
   Currently, my comments have been deleted for (like)
 </center><center>
-    <font size="7" color="red">67</font>
+    <font size="7" color="red">79</font>
 </center><center>
   times.
 </center>
 <center>
   <p class="big">
-    Chen Rui's mother has probably died for <font color="red">67</font> times too.
+    Chen Rui's mother has probably died for <font color="red">79</font> times too.
   </p>
 </center>
+
 
 I don't like embedding HTML codes in markdown files, though.
 
