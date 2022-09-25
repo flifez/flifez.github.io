@@ -5,22 +5,7 @@ date:   2022-09-09 16:22:00 +0800
 categories: rambling
 ---
 
-<p>
-<center>
-<strong>This page has been under construction since <em>9/9</em>.</strong>
-</center>
-<center>
-Currently progress: <strong>~65%</strong>
-<br>
-<em>I don't guarantee info below is latest. Will check them when this is finished.</em>
-</center>
-</p>
-
-
-
-
----
-
+{% include construction_template.html date="9/9" progress="~60" %}
 
 
 Last month (Aug. 2022), I installed macOS Monterey 12.5.1 (the latest version at the time) on an H-110 system I once used to install macOS High Sierra 10.13.6 using 🍀. That installation was perfect but I deleted it by mistake.

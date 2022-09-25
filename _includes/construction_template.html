@@ -1,0 +1,30 @@
+<!-- Use this template when you need to hang on an unfinished status for a while. -->
+
+<style type="text/css">
+    .box {
+        border-radius: 25px;
+        background: #eaeaea;
+        padding: 20px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .font {
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style>
+
+<center>
+    <div class="box font">
+        <strong>
+            This page has been under construction since <em>{{ include.date }}</em>.
+        </strong><br>
+            Current progress: <strong>{{ include.progress }}%</strong>
+        <br>
+        
+        <em>
+            I don't guarantee info below is latest. Will check 'em when this is finished.
+        </em>
+    </div>
+    <br>
+</center>

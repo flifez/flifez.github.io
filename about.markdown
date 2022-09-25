@@ -4,7 +4,13 @@ title: Stuff
 permalink: /stuff/
 ---
 
-<p><center><strong>This page is keep updating.</strong></center></p>
+<p>
+  <center>
+    <strong>
+      This page is keep updating.
+    </strong>
+  </center>
+</p>
 
 
 
