@@ -1,7 +1,13 @@
 .font {
     font-family: "Sofia", sans-serif;
-    background: -webkit-linear-gradient(#c9ffbf, #ffafbd);
-    font-size: large;
-    -webkit-background-clip: text;
-    background-clip: border-box;
+    background: linear-gradient(to right, #dc2424, #4a569d);
+    color: transparent;
+    font-size: 50px;
+    background-clip: calc();
+    -webkit-background-clip: text !important;
+}
+
+.margin {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }

@@ -75,3 +75,4 @@ Third, it's time for camera and microphone. I don't have them so this section is
 
 Drivers (in macOS just kexts) drive your hardwares so that they can be droven by you. Actually we have installed many drivers in previous installation progress, so in this section I'm gonna talk about WebDriver patching for Pascal GPUs (just Pascals -- Turings and Voltas can get back a lil bit).
 
+Here I used a tool named "OpenCore Legacy Patcher". Surprisingly, this tool was initially intended for old Macs to bypass Apple's restriction to install never versions of macOS. 

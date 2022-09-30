@@ -15,6 +15,7 @@ The website is licensed under CC BY-SA 4.0, meaning anyone who would like can
 
 1. The alert icon (`alert.png`) in warning templates (e.g. `/_include/construction_template.html`): image from Flaticon.com -- 
 <a href="https://www.flaticon.com/free-icons/warning" title="warning icons">Warning icons created by Freepik - Flaticon</a>.  
+2. The "Thank you" above: Sofia Font from Google Fonts under **SIL Open Font License** (no attribution required).  
 *(more to come)*
 
 ### Credits
