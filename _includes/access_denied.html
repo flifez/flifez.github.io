@@ -1,7 +1,8 @@
 <link rel="stylesheet" href="/assets/css/template_wrapper.css" type="text/css">
 
 <style media="screen">
-    .box {
+    .box-a {
+        border: thick dashed #737373;
         border-radius: 25px;
         background: linear-gradient(#ffc4c4, #d4a6a6);
         padding: 25px;
@@ -9,22 +10,33 @@
         height: auto;
     }
 
-    .font {
+    .font-a {
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .p-space {
+        margin-top: -1em;
     }
 
     .cover-up {
         background: #ffffff;
+        visibility: hidden;
+        display: none;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
     }
 </style>
 
 <center>
-    <div class="box font">
+    <div class="box-a font-a">
         <strong>
             This page has been prevented from any access since {{ include.date }}.
         </strong>
-        <br>  
-        We do not provide a certain time at which such restriction will be removed. 
+        <div class="p-space">
+            <br>
+        </div>
+        We do not provide a certain time at which such restriction will be removed. <br>
         Whilst you may want to read this page, please go for other articles <em>for now</em>.
     </div>
     <br>
