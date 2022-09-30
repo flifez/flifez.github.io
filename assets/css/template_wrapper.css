@@ -1,0 +1,16 @@
+.box {
+    border-radius: 25px;
+    background: linear-gradient(#f0f0f0, #d7d7d7);
+    padding: 25px;
+    width: fit-content;
+    height: auto;
+}
+
+.font {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.alert {
+    max-width: 10%;
+    height: auto;
+}

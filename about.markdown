@@ -1,40 +1,24 @@
 ---
 layout: page
-title: Stuff
-permalink: /stuff/
+title: About
+permalink: /about/
 ---
 
-<p>
-  <center>
-    <strong>
-      This page is keep updating.
-    </strong>
-  </center>
-</p>
+Thank you for reading this website.
 
+The website is licensed under CC BY-SA 4.0, meaning anyone who would like can
 
+- Use any materials (**excluding specified assets listed below**) for commercial usages;
+- Redistribute with my name mentioned, and in the same license this website uses.
 
-## Internet, the Ultimate Public Cesspit
+### Copyright Declarations
 
-With Internet, you can bully a random OP with so-called "freedom of speech". You can do some doxing and appreciate the victims' pain. You can even write some bullshit (like this) to "set things right", we call that tryhard.
+1. The alert icon (`alert.png`) in warning templates (e.g. `/_include/construction_template.html`): image from Flaticon.com -- 
+<a href="https://www.flaticon.com/free-icons/warning" title="warning icons">Warning icons created by Freepik - Flaticon</a>.  
+*(more to come)*
 
-## #FvckBi1ibi1i
+### Credits
 
-This is a counter. Each time my comment gets deleted, I will add one here.
+FlifeX -- Website, Articles, Assets, Code, Art and Creativity
 
-<center>
-  Currently, my comments have been deleted for (like)
-</center><center>
-    <font size="7" color="red">79</font>
-</center><center>
-  times.
-</center>
-<center>
-  <p class="big">
-    Chen Rui's mother has probably died for <font color="red">79</font> times too.
-  </p>
-</center>
-
-
-I don't like embedding HTML codes in markdown files, though.
-
+**Open for contributing. Please make a Pull Request in GitHub.**
