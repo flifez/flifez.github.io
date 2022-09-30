@@ -1,4 +1,33 @@
-<style>
-    @import url('/assets/css/template_wrapper.css')
+<link rel="stylesheet" href="/assets/css/template_wrapper.css" type="text/css">
+
+<style media="screen">
+    .box {
+        border-radius: 25px;
+        background: linear-gradient(#ffc4c4, #d4a6a6);
+        padding: 25px;
+        width: fit-content;
+        height: auto;
+    }
+
+    .font {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .cover-up {
+        background: #ffffff;
+    }
 </style>
 
+<center>
+    <div class="box font">
+        <strong>
+            This page has been prevented from any access since {{ include.date }}.
+        </strong>
+        <br>  
+        We do not provide a certain time at which such restriction will be removed. 
+        Whilst you may want to read this page, please go for other articles <em>for now</em>.
+    </div>
+    <br>
+</center>
+
+<div class="cover-up">

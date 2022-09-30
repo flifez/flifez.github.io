@@ -1,0 +1,7 @@
+.font {
+    font-family: "Sofia", sans-serif;
+    background: -webkit-linear-gradient(#c9ffbf, #ffafbd);
+    font-size: large;
+    -webkit-background-clip: text;
+    background-clip: border-box;
+}

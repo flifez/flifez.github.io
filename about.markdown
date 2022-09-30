@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Thank you for reading this website.
+{% include special_thankyou.html %}
 
 The website is licensed under CC BY-SA 4.0, meaning anyone who would like can
 
