@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Rambler Playground - β
+title: Rambler Playground | Beta
 email: flif3z (at) gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Preserves all shards of time. Check your catalogue and order with an amazing 60% off just for yesterday. SITE LICENSED UNDER CC BY-SA 4.0.

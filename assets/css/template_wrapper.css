@@ -14,3 +14,7 @@
     max-width: 10%;
     height: auto;
 }
+
+.shadow {
+    box-shadow: 0px 10px 30px #424242;
+}
