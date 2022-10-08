@@ -2,6 +2,7 @@
 layout: page
 title: Stuff
 permalink: /stuff/
+exclude: true
 ---
 
 <p>
