@@ -3,6 +3,7 @@ layout: post
 title:  "OpenCore Hackintosh Debugging Log"
 date:   2022-09-09 16:22:00 +0800
 categories: rambling
+author: FlifeX
 ---
 
 {% include construction_template.html date="9/9" progress="~60" desc="I don't guarantee info below is latest. Will check 'em when this is finished." %}
@@ -73,6 +74,20 @@ Third, it's time for camera and microphone. I don't have them so this section is
 
 ### Drivers, drivers and drivers
 
+> This section is derived from GitHub Pull Request: [Implement Alpha Support for Nvidia Web Drivers #993](https://github.com/dortania/OpenCore-Legacy-Patcher/pull/993).
+
 Drivers (in macOS just kexts) drive your hardwares so that they can be droven by you. Actually we have installed many drivers in previous installation progress, so in this section I'm gonna talk about WebDriver patching for Pascal GPUs (just Pascals -- Turings and Voltas can get back a lil bit).
 
 Here I used a tool named "OpenCore Legacy Patcher". Surprisingly, this tool was initially intended for old Macs to bypass Apple's restriction to install never versions of macOS. 
+
+In theory, you will get Nvidia WebDriver for macOS High Sierra 10.13.6 to running after using some patching hacks.
+
+Normally, you probably want SIP (System Integrity Protection) to stay on. However, enabling GPU acceleration which is not intended and designed for a specific version needs you to *partially* disable it. In this case, we need to disable the following functions: (SIP lowered to `0xa03`)
+
+- `CSR_ALLOW_UNTRUSTED_KEXTS`
+- `CSR_ALLOW_UNRESTRICTED_FS`
+- `CSR_ALLOW_UNAPPROVED_KEXTS`
+- `CSR_ALLOW_UNAUTHENTICATED_ROOT`
+
+which are `0x001`, `0x002`, `0x200` and `0x800` in hex notation.
+
