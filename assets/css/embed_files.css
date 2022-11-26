@@ -1,0 +1,13 @@
+.embed-files {
+    border-radius: 25px;
+    background: #f0f0f0;
+    padding: 15px;
+    width: calc(50vh);
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.dim {
+    color: #dcdcdc;
+    font-size: small;
+}

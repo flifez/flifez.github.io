@@ -2,7 +2,7 @@
     border-radius: 25px;
     background: linear-gradient(#f0f0f0, #d7d7d7);
     padding: 25px;
-    width: fit-content;
+    width: calc(50vh);
     height: auto;
 }
 

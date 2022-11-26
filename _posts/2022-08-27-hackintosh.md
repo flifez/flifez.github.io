@@ -8,6 +8,8 @@ author: FlifeX
 
 {% include construction_template.html date="9/9" progress="~60" desc="I don't guarantee info below is latest. Will check 'em when this is finished." %}
 
+{% include embed_files.html filename="test.png" size="1" fullname="killme" %}
+
 
 Last month (Aug. 2022), I installed macOS Monterey 12.5.1 (the latest version at the time) on an H-110 system I once used to install macOS High Sierra 10.13.6 using 🍀. That installation was perfect but I deleted it by mistake.
 
