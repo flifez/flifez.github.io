@@ -22,9 +22,11 @@ Whatever, just wipe this off. We are going to embrace something really beautiful
 
 This is exactly what we talked about last time. Just, I didn't tell you the official fancy name.
 Since we are not going to talk about color for now, here is even a more simplified formula for you:  
+
 $$
 I_D = \boldsymbol{L} \cdot \boldsymbol{N} I_L
 $$
+
 in which $I_D$ is surface brightness (intensity of reflected light), $\boldsymbol{L}$ and $\boldsymbol{N}$ are *normalized* light vector and normal vector.
 
 > Lambertian reflectance was firstly discussed in the 1760 book, *Photometria*.
@@ -64,9 +66,11 @@ Some important stuff is coming! Listen very carefully, please.
 Have them be perfectly understood in your mind! They are just so important for our next step.
 
 To simplify, let's assume there's only one light source here:  
+
 $$
 I=k_\mathrm{a}i_\mathrm{a}+k_\mathrm{d}i_\mathrm{d}\cdot\boldsymbol{L}\cdot\boldsymbol{N}+k_\mathrm{s}i_\mathrm{s}\cdot(\boldsymbol{R}\cdot\boldsymbol{V})^\alpha
 $$
+
 and this is the Phong model.
 
 In the formula, we still need to talk about some symbols. $I$ is the illumination of target point, $i_{\mathrm{a}, \mathrm{d}, \mathrm{s}}$ are respectively ambient light, diffuse part and specular part of the light source.
@@ -90,6 +94,7 @@ And if we consider this, Phone model may be written as follows:
 $$
 I=k_\mathrm{a}i_\mathrm{a}+\sum_{l \in \mathrm{\{lights\}}} \left(k_\mathrm{d}i_{l,\mathrm{d}}\cdot\boldsymbol{L}_l\cdot\boldsymbol{N}_l+k_\mathrm{s}i_{l,\mathrm{s}}\cdot(\boldsymbol{R}_l\cdot\boldsymbol{V}_l)^\alpha\right)
 $$
+
 But don't forget though: Phong model is *empirical*, which means I cannot to provide an explanation for this in theory. 
 
 #### Phong model explorations
