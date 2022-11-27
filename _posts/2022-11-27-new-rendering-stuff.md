@@ -21,7 +21,7 @@ Whatever, just wipe this off. We are going to embrace something really beautiful
 ### Lambertian reflectance
 
 This is exactly what we talked about last time. Just, I didn't tell you the official fancy name.
-Since we are not going to talk about color for now, here is even a more simplified formula for you:
+Since we are not going to talk about color for now, here is even a more simplified formula for you:  
 $$
 I_D = \boldsymbol{L} \cdot \boldsymbol{N} I_L
 $$
@@ -63,7 +63,7 @@ Some important stuff is coming! Listen very carefully, please.
 
 Have them be perfectly understood in your mind! They are just so important for our next step.
 
-To simplify, let's assume there's only one light source here:
+To simplify, let's assume there's only one light source here:  
 $$
 I=k_\mathrm{a}i_\mathrm{a}+k_\mathrm{d}i_\mathrm{d}\cdot\boldsymbol{L}\cdot\boldsymbol{N}+k_\mathrm{s}i_\mathrm{s}\cdot(\boldsymbol{R}\cdot\boldsymbol{V})^\alpha
 $$
@@ -85,8 +85,59 @@ So, why the exponent $\alpha$? Remember it is in proportion to how smooth our ob
 
 Oh, and your question for sure. If there are multiple light sources in the scene, just combine every of their "second and third terms" in Phong formula. Pretty easy huh?!
 
+And if we consider this, Phone model may be written as follows:  
+
+$$
+I=k_\mathrm{a}i_\mathrm{a}+\sum_{l \in \mathrm{\{lights\}}} \left(k_\mathrm{d}i_{l,\mathrm{d}}\cdot\boldsymbol{L}_l\cdot\boldsymbol{N}_l+k_\mathrm{s}i_{l,\mathrm{s}}\cdot(\boldsymbol{R}_l\cdot\boldsymbol{V}_l)^\alpha\right)
+$$
 But don't forget though: Phong model is *empirical*, which means I cannot to provide an explanation for this in theory. 
 
 #### Phong model explorations
 
-(To be cont'd)
+In this section we are gonna talk about some usages and applications of the model. Please note that the model is not really physics-based, and should not be used for photorealistic rendering purposes. 
+
+To start with, man, I am providing some pseudo code here. Check 'em and adapt to your own needs! Also, to help you, I'd provide some actual code in the future attached to the blog post.  
+
+```
+void PhongModelRendering() {
+	vec3 normalizedLight = (a, b, c);
+	vec3 normalIncidence = (e, f, g);
+	vec3 reflected = normalizedLight.flip(normalIncidence);
+	vec3 viewer = (x, y, z);
+
+	for (p = camera[xcoord][ycoord]) {
+		pIllumination = ambient + diffusion + specular;
+	}
+}
+```
+
+Whatever, after you manage to run the code successfully, you can work with some of properties and mess around with them.
+
+Here, I'd like to introduce colors as B&W is not enough for ambitious dudes like us.
+
+**Colors**
+
+In application, it is often recommended to separate R, G and B channels and treat 3 primary channels individually with Phong model (because a material usually has different constants for different wavelengths of light.)
+
+When messing with RGBA (or just RGB) things, the main principle is pretty much the same as what we'd talked about just now. Just make sure to combine 3 channels and you'll get a picture and cure the computer's colorblind.
+
+**Blinn-Phong model**
+
+In some cases, Phong model may produce some faulty results (mainly specular reflection). To solve such problem, James F. Blinn modified Phong model, making what we call "Blinn-Phong model" today.
+
+The model ditchs the vector $\boldsymbol{R}$ we talked about. Instead, it introduces a new vector, *halfway vector* $\boldsymbol{H}$. Basically, they are just 2 different ways to calculate the specular reflection.
+
+Just like the normal vector is the angular bisector of  $\boldsymbol{L}$ and  $\boldsymbol{R}$, $\boldsymbol{H}$ is the angular bisector of  $\boldsymbol{L}$ and  $\boldsymbol{V}$. This makes a difference, because when we are using default Phong model, there will be cases where the angle between $\boldsymbol{V}$ and $\boldsymbol{R}$ is larger than 90 degrees. Since it utilizes scalar product, this will result in a negative value! We certainly don't want it sometimes.
+
+In Blinn-Phong model, however, things are different: we are gonna do with $\theta = \left\langle\boldsymbol{H},\boldsymbol{N}\right\rangle$. In this case, if we see from the direction of $\boldsymbol{R}$, $\theta$ will be 0 degree and we will see strongest specular reflection now.
+
+However, the result of Blinn-Phong and Phong models are slightly different, but I would say Blinn made some improvements to the result, because it looks more realistic!
+
+### Conclusion 
+
+*"What's it going to be then, eh?"*
+
+Well, O my brother, this was just a *skorry* description to some of those rendering lighting model stuff. I'd consider this bit *starry* and rare pleasure. Always a nice time, just try to make all of these things clear and nicely done. And all that cal.
+
+-- FlifeX
+
