@@ -103,7 +103,7 @@ In this section we are gonna talk about some usages and applications of the mode
 
 To start with, man, I am providing some pseudo code here. Check 'em and adapt to your own needs! Also, to help you, I'd provide some actual code in the future attached to the blog post.  
 
-```
+```c
 void PhongModelRendering() {
 	vec3 normalizedLight = (a, b, c);
 	vec3 normalIncidence = (e, f, g);
