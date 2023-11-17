@@ -1,6 +1,6 @@
 .box {
     border-radius: 25px;
-    background: linear-gradient(#f0f0f0, #d7d7d7);
+    background: linear-gradient(#fdfdfd, #d7d7d7);
     padding: 25px;
     width: calc(50vh);
     height: auto;
