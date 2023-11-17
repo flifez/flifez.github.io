@@ -2,7 +2,7 @@
     border-radius: 25px;
     background: linear-gradient(#fdfdfd, #d7d7d7);
     padding: 25px;
-    width: 50vh;
+    width: calc(60vw);
     height: auto;
 }
 
@@ -11,19 +11,10 @@
 }
 
 .alert {
-    max-width: 100%; /* Set to 100% and use media queries to adjust as needed */
+    max-width: 10%; /* Set to 10% and use media queries to adjust as needed */
     height: auto;
 }
 
 .shadow {
     box-shadow: 0px 10px 30px #424242;
-}
-
-@media screen and (max-width: 800px) {
-    .box {
-        width: 50vw; /* Increase width on smaller screens */
-    }
-    .alert {
-        max-width: 75%; /* Adjust max-width for smaller screens */
-    }
 }
