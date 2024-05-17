@@ -22,4 +22,4 @@ The website is licensed under CC BY-SA 4.0, meaning anyone who would like can
 
 FlifeX -- Website, Articles, Assets, Code, Art and Creativity
 
-**Open for contributing. Please make a Pull Request in GitHub.**
+**Open for contributions. Please make a Pull Request on GitHub.**
