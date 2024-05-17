@@ -17,4 +17,4 @@ x_2 & y_2 & z_2
 \left(x_1 y_2 - y_1 x_2\right) \hat{\boldsymbol{k}},
 $$
 
-where $\left\{\hat{\boldsymbol{i}}, \hat{\boldsymbol{j}}, \hat{\boldsymbol{k}}\right\}$ is a basis of $\mathbb{R}^3$.
+where $\left\\{\hat{\boldsymbol{i}}, \hat{\boldsymbol{j}}, \hat{\boldsymbol{k}}\right\\}$ is a basis of $\mathbb{R}^3$.
