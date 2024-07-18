@@ -2,21 +2,19 @@
 
 <link rel="stylesheet" href="/assets/css/template_wrapper.css" type="text/css">
 
-<center>
-    <!-- <div class="box font shadow"> 
-        It is too narrow to use shadow here.
-        Fix later - Oct. 29.
-    -->
-    <div class="box font">
-        <div class="alert">
-            <img src="/assets/images/alert.png">
-        </div> <br>
-        <strong>
-            This page has been under construction since <em>{{ include.date }}</em>.
-        </strong><br>
-            Current progress: <strong>{{ include.progress }}%</strong>
-        <br>
-        <em>I don't guarantee info below is latest. Will check 'em when this is finished.</em>
-    </div>
+<!-- <div class="box font shadow"> 
+    It is too narrow to use shadow here.
+    Fix later - Oct. 29.
+-->
+<div class="box font" style="display: flex; flex-direction: column; align-items: center; margin: 0;">
+    <div class="alert">
+        <img src="/assets/images/alert.png">
+    </div> <br>
+    <strong>
+        This page has been under construction since <em>{{ include.date }}</em>.
+    </strong><br>
+        Current progress: <strong>{{ include.progress }}%</strong>
     <br>
-</center>
+    <em>I don't guarantee info below is latest. Will check 'em when this is finished.</em>
+</div>
+<br>

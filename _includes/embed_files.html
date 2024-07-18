@@ -2,16 +2,12 @@
 <link rel="stylesheet" href="/assets/css/embed_files.css">
 
 
-<center>
-
-    <div class="embed-files">
-        <p>
-            <strong>{{ include.filename }}</strong><br>
-        </p>
-            Size: {{ include.size }}<br>
-        <p class="dim">
-            {{ include.fullname }}
-        </p>
-    </div>
-
-</center>
+<div class="embed-files" style="text-align: center;">
+    <p>
+        <strong>{{ include.filename }}</strong><br>
+    </p>
+        Size: {{ include.size }}<br>
+    <p class="dim">
+        {{ include.fullname }}
+    </p>
+</div>
