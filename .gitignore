@@ -1,7 +1,12 @@
 .DS_Store
 .jekyll-cache
 .vscode/
+node_modules
+package.json
+package-lock.json
 _site/
 
 stuff.markdown.archive
 archive
+
+tailwind.config.js
